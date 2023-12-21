@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs.tsx'
 import ArtCrafts from './pages/ArtCrafts.tsx'
 import Shirts from './pages/Shirts.tsx'
 import SpecialOccasion from './pages/SpecialOccasion.tsx'
+import Signs from './pages/Signs.tsx'
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path:'/special-occasions',
         element: <SpecialOccasion />
+      },
+      {
+        path:'/signs',
+        element:<Signs />
       }
     ]
   },
