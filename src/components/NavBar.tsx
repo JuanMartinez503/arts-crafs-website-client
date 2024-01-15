@@ -64,8 +64,7 @@ const NavBar: React.FC = () => {
           <div className="line3"></div>
         </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/about-us">About us</Link></li>
-          <li><Link to="/art-and-crafts">Art Crafts</Link></li>
+          <li><Link to="/art-and-crafts">Art and Crafts</Link></li>
           <li><Link to="/shirts">Shirts</Link></li>
           <li><Link to="/signs">Signs</Link></li>
           <li><Link to="/special-occasions">Special Occasions</Link></li>
