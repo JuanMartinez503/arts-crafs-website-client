@@ -32,7 +32,7 @@ nav{
   margin-bottom: -.5rem;
 }
 .outlet {
-  
+  padding: 1rem;
   color: #131418;
   
   
@@ -164,9 +164,47 @@ nav{
   transform: rotate(-90deg);
 }
 
+.main-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.main-description {
+  text-align: center;
+}
+.other-products-container {
+  display: flex;
+  padding: 5%;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1 !important;
+  
+}
+.other-products {
+  width: 15rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px ;
+  flex-grow: 1;
+  
+}
+.other-products img {
+  border-radius: 10px 10px 0 0;
 
+  width: 100%;
+  height: 35dvh;
+}
+.other-products div {
+  padding: .5rem;
+  text-align: center;
+}
+.other-products h2 {
+margin-bottom: .5rem;
+text-decoration: underline;
+padding: .5rem;
+}
 /*Stying for small screens*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
   nav{
       position: relative;
       z-index: 3;
@@ -231,6 +269,10 @@ nav{
   }
   .nav-links.no-transition {
     transition: none !important;
+  }
+  .other-products {
+    width: 20rem;
+    margin:  0 auto;
   }
   
 }
